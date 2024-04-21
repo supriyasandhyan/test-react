@@ -1,0 +1,63 @@
+.nav{
+    padding: 5px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav > a{
+    text-decoration: none;
+}
+
+
+/* =====Login css========  */
+
+.Loginform{
+    margin: 10px 100px;
+    gap: 30px;
+    display: flex;
+    padding: 20px 40px;
+    border: 1px solid black;
+}
+
+.mail{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.bttn{
+    border: 1px solid gray;
+    padding: 10px 30px ;
+    border-radius: 10px;
+    background-color: green;
+    color: aliceblue;
+}
+
+.reg{
+    margin: 10px 30px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 20px;
+}
+.home-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 30px;
+}
+.card{
+    width: 500px;
+    border: 1px solid black;
+    color: black;
+    margin: 10px 30px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
